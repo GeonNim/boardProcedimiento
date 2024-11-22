@@ -1,0 +1,8 @@
+ INSERT INTO board(writer,board_pass,title,content) VALUES($1,$2,$3,$4) RETURNING board_id
+ )
+
+
+insert문이 작동했을때 board_id 값을 RETURNING으로 반환해서 즉각 전송한다.
+
+ https://fascinate-zsoo.tistory.com/31
+ 참고사항
