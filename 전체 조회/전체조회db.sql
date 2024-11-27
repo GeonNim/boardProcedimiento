@@ -1,0 +1,1 @@
+SELECT * FROM board WHERE board_state = true ORDER BY regdate DESC
